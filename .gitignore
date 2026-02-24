@@ -1,0 +1,91 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# =========================
+# Virtual environments
+# =========================
+venv/
+env/
+ENV/
+.venv/
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Environment variables
+# =========================
+.env
+.env.*
+
+# =========================
+# Flask
+# =========================
+instance/
+.webassets-cache
+
+# =========================
+# ML / Model artifacts
+# =========================
+*.joblib
+*.h5
+*.onnx
+
+# =========================
+# Generated data
+# =========================
+*.csv
+*.parquet
+data/
+datasets/
+
+# (OPTIONAL) keep if you want to version dataset:
+# !ev_12v_battery_dataset.csv
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# IDEs
+# =========================
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# =========================
+# Build / cache
+# =========================
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# =========================
+# Matplotlib outputs
+# =========================
+*.png
+*.jpg
+*.jpeg
+*.svg
